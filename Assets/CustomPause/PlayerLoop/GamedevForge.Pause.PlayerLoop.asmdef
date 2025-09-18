@@ -1,3 +1,16 @@
 {
-	"name": "GamedevForge.Pause.PlayerLoop"
+    "name": "GamedevForge.Pause.PlayerLoop",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c914177603f87f344bb5422711f49b61"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

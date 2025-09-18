@@ -8,6 +8,7 @@ namespace CustomPause.Zenject.Core
         {
             Container.BindInterfacesAndSelfTo<PauseService>().AsSingle(); //use "ToSelf" method is important for ICreator
             Container.BindInterfacesTo<Creator>().AsSingle();
+            Container.BindInterfacesTo<PauseAdapter>().AsSingle();
         }
     }
 }

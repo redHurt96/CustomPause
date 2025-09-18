@@ -2,7 +2,8 @@
     "name": "GamedevForge.Pause.Zenject",
     "rootNamespace": "",
     "references": [
-        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:c914177603f87f344bb5422711f49b61"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
