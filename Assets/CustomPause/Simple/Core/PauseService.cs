@@ -1,14 +1,15 @@
+using System;
 using System.Collections.Generic;
 
 namespace CustomPause.Simple
 {
-    public class PauseService : Singleton<PauseService>
+    public class PauseService : MonoSingleton<PauseService>
     {
         public bool IsPaused { get; private set; }
         
-        private readonly List<IPauseTickable> _pauseTickable;
+        private readonly List<IPauseTickable> _pauseTickable = new();
 
-        public void Tick()
+        private void Update()
         {
             if (IsPaused)
                 return;
